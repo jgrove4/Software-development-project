@@ -31,14 +31,14 @@ The web application is based off of Python 3 making extensive use of the Flask p
 
 ### **Methodology**
 * Install all the latest version of the required libraries listed above from python using the following script:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 * When making the database, ensure you have both CSV file in the same directory before running database_code.py 
 
 * In order to successfully run the web application, ensure the database file and Web_app_final.py are in the same directory and that the directory contains a subdirectory named templates, containing all of the HTML files
 
 * Using Jupyter, open a new terminal, change directory to the directory containing the Web_app_final.py file, and enter the following script to run the software:
-Python Web_app_final.py
+   Python Web_app_final.py
 
 * An input query of rsID returns all the available information related to that in the entry search for chromosome 6.
 
