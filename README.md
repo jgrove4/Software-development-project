@@ -50,12 +50,12 @@ The web application is based off of Python 3 making extensive use of the Flask p
 ## **FAQ's**
 * **I ran pip install -r requirements.txt but got an error opening the mentioned file in the terminal**
 
-_if the command fails, a common cause of this is your terminal is running the command in the same directory as requirments.txt_
+_If the command fails, a common cause of this is your terminal is running the command in the same directory as requirments.txt_
 
-* **i give an rsid in the search entry and theres no result displayed**
+* **I give an rsid in the search entry and theres no result displayed**
 
-_avoid blank spaces after inputting an rsID, also make sure to use an rsID or a gene name that is relevant to Type 1 Diabetes_
+_Avoid blank spaces after inputting an rsID, also make sure to use an rsID or a gene name that is relevant to Type 1 Diabetes_
 
 * **I have searched chromosome positions that are related to T1D but nothing comes up**
 
-_this web app is specific to chromosome 6 only, for now please keep your searches limited to this chromosome_
+_This web app is specific to chromosome 6 only, for now please keep your searches limited to this chromosome_
