@@ -15,37 +15,30 @@ The software is a web-based application that allows users to search for data rel
 ***
 The web application is based off of Python 3 making extensive use of the Flask package to generate HTML web-pages from the Python script, this communicates with the SQLite database to retrieve and store user data and processes user requests, generating an appropriate HTML response using the templates. When you use the web application you will be prompted to input one of three things: an rsID, a gene name or a location range on chromosome 6. After inputting one of these values the following results will be shown. If a singular SNP is returned from the search the user will see the following information: SNP name, genomic position, p-value from the association test, mapped gene, variant frequency in three different human populations of interest, one measure of functional impact and/or clinical relevance for each variant, and one functional or gene ontology term associated with each mapped gene. If multiple SNP’s are returned from your search in addition to this information, a Manhattan Plot, Linkage Disequilibrium plot and a text file of LD values will be presented.
 
-### **Software Technologies**
+### **Libraries for Installation**
 ***
-A list of libraries and languages used:
 
-* Python
-* SQLite 
-* HTML
+* SQLite3 
 * numpy
 * flask
 * pandas
 * matplotlib
 * wtforms
 * requests
-* LD plot
+* ld_plot
 * pathlib
 ***
 
-### **Data Sources**
-***
-* GWAS Catalog
-* CADD 
-* Gene Ontology Terms-BioMart
-***
-
-### **Installation**
-* install the latest versions of software technologies listed above
-* pip install -r requirements.txt file to install all the necessary libraries for the python codes to run efficiently
-***
-
 ### **Methodology**
-* Install all the required libraries from python.
+* Install all the latest version of the required libraries listed above from python using the following script:
+* pip install -r requirements.txt
+
+* When making the database, ensure you have both CSV file in the same directory before running database_code.py 
+
+* In order to successfully run the web application, ensure the database file and Web_app_final.py are in the same directory and that the directory contains a subdirectory named templates, containing all of the HTML files
+
+* Using Jupyter, open a new terminal, change directory to the directory containing the Web_app_final.py file, and enter the following script to run the software:
+*Python Web_app_final.py
 
 * An input query of rsID returns all the available information related to that in the entry search for chromosome 6.
 
